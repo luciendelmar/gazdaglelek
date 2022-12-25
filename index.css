@@ -1,0 +1,48 @@
+body {
+	margin: 0px;
+}
+div {
+    border: 0px solid black;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.origo {
+    border-radius: 10px;
+    height: 40%;
+    width: 15%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.img1 {
+    width: 100px;
+}
+.img2 {
+    width: 50px;
+}
+.card {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    border: 1px solid gray;
+    height: 8rem;
+    width: 5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+#stack {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+}
